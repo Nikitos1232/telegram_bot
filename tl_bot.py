@@ -10,7 +10,7 @@ api_hash = "b60bf010f3561a695eb53d03d236695e"
 #     app.send_message("me", "Это я бот")
 
 client = Client(name="my_account", api_hash=api_hash, api_id=api_id)
-spam_text = 'я лижу яйца Иноске'
+spam_text = 'Это спам мой друг'
 
 
 @client.on_message(filters.command("type", prefixes='!') & filters.me)
