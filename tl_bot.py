@@ -3,8 +3,8 @@ from pyrogram.types import Message
 from pyrogram.errors import FloodWait
 import time
 from asyncio import sleep
-api_id = ""
-api_hash = ""
+api_id = "24960778"
+api_hash = "b60bf010f3561a695eb53d03d236695e"
 
 # with Client(name="my_account", api_hash=api_hash, api_id=api_id) as app:
 #     app.send_message("me", "Это я бот")
